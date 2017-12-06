@@ -1,0 +1,297 @@
+	* {
+		font-family: Myriad pro;
+		font-size: 16px;
+		color: white;
+		background-color: black;
+		text-decoration: none;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+
+	}
+
+html{
+
+}
+
+	#logo {
+		grid-column: 1/-1;
+		width: 40%;
+		margin: auto;
+	}
+
+	nav {
+
+		align-items: center;
+		text-align: center;
+		padding-top: 50px;
+		grid-column: 1/-1;
+		margin: auto;
+		padding: 50px;
+	}
+
+	nav a {
+
+		padding: 20px;
+		font-family: Adam;
+		font-size: 48px;
+		text-align: center;
+	}
+
+footer {
+		grid-column: 1/-1;
+		border: white solid 1px;
+	}
+
+	footer img {
+		grid-column: 1/-1;
+		width: 4%;
+	}
+
+
+
+h1{
+	font-family: Adam;
+	grid-column: 1-/1;
+	font-size: 26px;
+	margin: auto;
+	padding: 20px;
+}
+
+/*///// Index Page //////*/
+
+#homeVideo {
+		width: 100%;
+		grid-column: 1/-1;
+	}
+
+/*///// Index page end //////*/
+
+
+
+/*///// About Page //////*/
+
+#portfolioP {
+			grid-column: 1/-1;
+
+			margin: auto;
+		}
+		#aboutPhoto {
+			grid-column: 1/-1;
+			width: 50%;
+			margin: auto;
+		}
+		#aboutP {
+			grid-column: 1/-1;
+
+		}
+		#processP {
+			grid-column: 1/-1;
+
+		}
+		#proccesVideo {
+			grid-column: 1/-1;
+			width: 100%;
+		}
+
+
+#portfolioPhoto{
+	grid-column: 1/-1;
+	width: 100%;
+	margin: auto;
+}
+
+/*///// About page end //////*/
+
+
+/*///// Product page //////*/
+
+	.product{
+		grid-template-columns: repeat(2, 1fr);
+		grid-column: 1/-1;
+		margin: auto;
+		text-align: center;
+
+	}
+
+.product .name{
+	font-size: 26px;
+}
+
+	.product img {
+		width: 100%;
+	}
+
+	.product .specs {
+		display: none;
+	}
+
+	.product .features{
+	display: none;
+}
+
+.product .led{
+		display: none;
+}
+
+.product .extra_price{
+	display: none;
+}
+
+	.hide {
+		display: none;
+	}
+
+
+
+	.modal-content {
+		position: fixed;
+		z-index: 1;
+		padding-top: 2em;
+		grid-column: 1/-1;
+		top: 0;
+		background-color: darkgray;
+		background-color: rgba(0, 0, 0, .7);
+		background-color: darkgray;
+		margin: auto;
+		padding: 2px;
+		border: 1px solid white;
+		color: white;
+	}
+
+	.modal p {
+		background-color: #a06546;
+	}
+
+	.modal h4 {
+		background-color: #a06546;
+		text-align: center;
+	}
+
+	.modal h3 {
+		background-color: #a06546;
+		text-align: center;
+	}
+
+
+
+
+/*///// Product page end //////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:600px) {
+
+		main{
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+		}
+
+		#logo{
+			width: 50%;
+			grid-row: 1;
+			grid-column: 1/3;
+
+		}
+
+		nav{
+			display: inline;
+			grid-row: 1;
+			grid-column: 3/-1;
+				}
+
+
+
+		/*///// About Page //////*/
+
+	#aboutH1{
+		grid-column: 1/-1;
+
+	}
+
+		#aboutPhoto {
+			grid-column: -3/-1;
+			grid-row:3;
+			grid-row-gap: 10px;
+			width: 90%;
+
+
+		}
+		#aboutP {
+		grid-row:3;
+		grid-column: 1/3;
+			padding-left: 10px;
+			margin: auto;
+
+
+		}
+
+	#processH1{
+		grid-row: 4;
+		grid-column: 1/-1;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+		#processP {
+
+			grid-column: -3/-1;
+			grid-row: 5;
+			margin: auto;
+
+		}
+		#proccesVideo {
+			grid-column: 1/3;
+			grid-row: 5;
+			width: 100%;
+		}
+
+	#portfolioH1{
+		grid-row: 6;
+		grid-column: 1/-1;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+
+#portfolioP {
+		grid-column: 1/3;
+		grid-row: 7;
+
+}
+
+	#portfolioPhoto{
+		grid-column: -3/-1;
+		grid-row:7;
+		width: 80%;
+	}
+
+
+/*///// About page end //////*/
+
+		section{
+			display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column: 1/-1;
+		grid-gap: 20px;
+
+
+	}
+
+
+	}
+
+
+
